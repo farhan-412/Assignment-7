@@ -10,7 +10,7 @@ const auctionPromise = fetch("/blogs.json").then((res) => res.json());
 function App() {
   return (
     <>
-      <div>
+      <div className='bg-[#DCE5F3]'>
         <Navbar />
         <Banner />
         <Suspense fallback={<span className="loading loading-spinner"></span>}>

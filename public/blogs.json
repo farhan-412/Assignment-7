@@ -10,34 +10,25 @@
   },
   {
     "id": 2,
-    "title": "Mid-Century Teak Sideboard",
-    "description": "Danish-style teak sideboard from the 1960s with sliding doors, three drawers, and tapered legs. Minor wear consistent with age.",
+    "title": "Banksy Original Screen Print",
+    "description": "Banksy's original screen print depicting a child with a balloon. In excellent condition with the original frame.",
     "currentBidPrice": 720.50,
     "timeLeft": "1d 9h 42m",
     "bidsCount": 14,
-    "image": "https://picsum.photos/seed/teak-sideboard/600/400"
+    "image": "https://i.ibb.co.com/ccjh7K4Z/Bid7-min.png"
   },
   {
     "id": 3,
-    "title": "Signed First Edition Hardcover",
+    "title": "Mid-Century Modern Eames Lounge Chair",
     "description": "First edition, first printing hardcover signed by the author. Dust jacket in protective sleeve, no tears or markings.",
     "currentBidPrice": 455.00,
     "timeLeft": "5h 30m",
     "bidsCount": 31,
-    "image": "https://picsum.photos/seed/signed-book/600/400"
+    "image": "https://i.ibb.co.com/3yjPKhzH/Bid5-min.png"
   },
   {
     "id": 4,
-    "title": "Handwoven Persian Wool Rug",
-    "description": "Hand-knotted 6x9 ft wool rug with a traditional medallion pattern in deep red and indigo. Professionally cleaned.",
-    "currentBidPrice": 2340.00,
-    "timeLeft": "3d 12h 5m",
-    "bidsCount": 19,
-    "image": "https://picsum.photos/seed/persian-rug/600/400"
-  },
-  {
-    "id": 5,
-    "title": "Automatic Dive Watch",
+    "title": "Rolex Submariner 16610",
     "description": "Stainless steel automatic dive watch with 300m water resistance, ceramic bezel, and sapphire crystal. Includes box and papers.",
     "currentBidPrice": 980.00,
     "timeLeft": "18h 50m",
@@ -45,8 +36,8 @@
     "image": "https://i.ibb.co.com/0jdGdvkY/Bid4-min.png"
   },
   {
-    "id": 6,
-    "title": "Acoustic Guitar - Solid Spruce Top",
+    "id": 5,
+    "title": "1965 Gibson SG Standard Electric Guitar",
     "description": "Dreadnought acoustic guitar with solid spruce top, mahogany back and sides, and rich, balanced tone. Comes with hard case.",
     "currentBidPrice": 610.75,
     "timeLeft": "2d 1h 20m",
@@ -54,12 +45,12 @@
     "image": "https://i.ibb.co.com/v6k4JyLk/Bid2-min.png"
   },
   {
-    "id": 7,
-    "title": "Antique Brass Telescope",
-    "description": "19th-century-style brass telescope with a leather-wrapped barrel and wooden tripod stand. Optics are clear and fully functional.",
+    "id": 6,
+    "title": "Original Apple Macintosh 128K (1984)",
+    "description": "Original Apple Macintosh 128K from 1984, complete with all original accessories and documentation. In excellent working condition.",
     "currentBidPrice": 385.25,
     "timeLeft": "6d 3h 10m",
     "bidsCount": 9,
-    "image": "https://picsum.photos/seed/brass-telescope/600/400"
+    "image": "https://i.ibb.co.com/jkrd5PPp/Bid3-min.png"
   }
 ]
