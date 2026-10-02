@@ -15,40 +15,31 @@ const ActiveAuction = ({ auctionPromise }) => {
     }
 
     const handleBid = (productId) => {
-        console.log(`Bid placed for product with ID: ${productId}`);
-        if (liked.includes(productId)) {
+        setLiked([...liked, productId]);
 
-        }
-        else {
-            setLiked([...liked, productId]);
+        Swal.fire({
+            position: "top-end",
+            size: "small",
+            icon: "success",
+            title: "Your item has been saved in favorites list",
+            showConfirmButton: false,
+            timer: 1500
+        });
 
-            Swal.fire({
-                position: "top-end",
-                size: "small",
-                icon: "success",
-                title: "Your item has been saved in favorites list",
-                showConfirmButton: false,
-                timer: 1500
-            });
-        }
 
     }
 
     const removeFavoriteItem = (productId) => {
 
         Swal.fire({
-                position: "top-end",
-                size: "small",
-                icon: "success",
-                title: "Your item has been removed from favorites list",
-                showConfirmButton: false,
-                timer: 1500
-            });
-            setLiked(liked.filter((id) => id !== productId));
-
-            
-        
-
+            position: "top-end",
+            size: "small",
+            icon: "success",
+            title: "Your item has been removed from favorites list",
+            showConfirmButton: false,
+            timer: 1500
+        });
+        setLiked(liked.filter((id) => id !== productId));
 
     }
 
@@ -94,7 +85,7 @@ const ActiveAuction = ({ auctionPromise }) => {
                                     <td>{product.timeLeft}</td>
                                     <td>
                                         <button className={liked.includes(product.id) ? "cursor-not-allowed" : "cursor-pointer"}
-                                            onClick={() => handleBid(product.id)}  
+                                            onClick={() => handleBid(product.id)}
                                             disabled={liked.includes(product.id)} >
                                             {liked.includes(product.id) ? <FaHeart size={'20px'} className="text-red-500" /> : <CiHeart size={'25px'} />}
                                         </button>
@@ -109,7 +100,6 @@ const ActiveAuction = ({ auctionPromise }) => {
                 <div className="bg-[#ffffff] rounded-lg my-8  w-1/3 h-[400px] py-5 flex flex-col  gap-5">
                     <div>
                         <h1 className="text-xl text-center flex items-center justify-center gap-2 border-b-2 border-gray-300 pb-2"><CiHeart /> Favorites Items</h1>
-                        {/* Here i want to display favorite items which is i clicked with a sweet alert */}
                         {
                             favoriteItems.length > 0 ? (
                                 <div className="flex flex-col gap-4 p-4 overflow-y-auto h-[250px]">
